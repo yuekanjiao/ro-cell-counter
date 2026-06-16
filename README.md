@@ -14,7 +14,7 @@ Peaks in the background (arrow pointed in (d)) may also be picked by the plugin,
 
 ![](figures/RO-Cell-Counter.png)
 
-Start plugin RO Cell Counter, the pluign prompts to load an image-set, smooths the image-set and picks the peaks using the default Gaussian filter radius and prominence values 3 and 6. The thresholds to differentiate cell and background peaks are auto-detected. The plugin allows tweaking the filter radius, prominence and threshold values by modifying them followed by clicking on button "Update". Button "Image Set" loads an image-set and starts cell counting just like the plugin's launching. The plugin can also do "Batch" cell counting - counting for all the image-sets in the same folder of the current image-set, with the option to "Hold" the current paramenters. 
+Start plugin RO Cell Counter, the pluign prompts to load an image-set, smooths the image-set and picks the peaks using the default Gaussian filter radius and prominence values 3 and 6. The default thresholds to differentiate cell and background peaks are obtained using ImageJ Thresholding method Triangle. The plugin allows tweaking the filter radius, prominence and threshold values by modifying them followed by clicking on button "Update". Button "Image Set" loads an image-set and starts cell counting just like the plugin's launching. The plugin can also do "Batch" cell counting - counting for all the image-sets in the same folder of the current image-set, with the option to "Hold" the current paramenters. 
 
 **Example:**
 
